@@ -18,3 +18,37 @@
   import os
   import shutil
 ```
+
+## Datetime module
+```
+  import datetime
+```
+
+## Math and Random module
+```
+  import math
+  #help(math)
+  import random
+
+  random.choice()
+  random.choices()
+  random.sample()
+  random.uniform()
+  random.gauss()
+```
+
+## Python debugger
+```
+  import pdb
+
+  pdb.set_trace()
+```
+
+## Python regular expression
+```
+  import re
+  re.match(pattern, text)
+  re.findall(pattern, text)
+  re.finditer(pattern, text)
+
+```
