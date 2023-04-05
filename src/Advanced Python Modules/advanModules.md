@@ -50,5 +50,18 @@
   re.match(pattern, text)
   re.findall(pattern, text)
   re.finditer(pattern, text)
+  re.search
+  re.compile
 
+  re.findall(r'...at', "the cat in the hat went splat")
+  // ['e cat', 'e hat', 'splat']
+```
+
+## Timing code
+```
+  import time
+  
+  import timeit
+
+  %%timeit
 ```
